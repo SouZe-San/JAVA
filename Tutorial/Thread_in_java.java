@@ -15,16 +15,16 @@
  * In thread Class There HAve some Pre-define method like " run() / start() "
  */
 
-// [[[[[[[[[[[[[[[[[[[[[[ 1. ONE WAY TO CREATE THREAD - extending the thread
+// @ [[[[[[[[[[[[[[[[[ 1. ONE WAY TO CREATE THREAD - extending the thread
 // class ]]]]]]]]]]]]]]]]]]]]]]
 
 class MyThread1 extends Thread {
-    
-    /** 
+
+    /**
      * @param 4000
      */
     @Override
-    public void run() {   // This rub Method present in Thread class that why have to Override this method
+    public void run() { // This rub Method present in Thread class that why have to Override this method
         int i = 0;
         while (i < 4000) {
             System.out.println("My Cooking Thread is Running");
@@ -46,8 +46,8 @@ class MyThread2 extends Thread {
     }
 }
 
-// [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ 2. ANOTHER WAY TO CREATE THREAD
-// -implementing a Runnable interface ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+// @ [[[[[[ 2. ANOTHER WAY TO CREATE THREAD -implementing a Runnable
+// interface ]]]]]]]]]]]]]]]]]]]]]]]]]]
 class MyThreadRunnable1 implements Runnable {
     public void run() {
         int i = 0;
@@ -81,8 +81,7 @@ public class Thread_in_java {
 
         // ><><?<?<<?<?<< when creating threads by implements Interfaces
         MyThreadRunnable1 bullet1 = new MyThreadRunnable1();
-        Thread gun1 = new Thread(bullet1);  // -----> Crate a thread object and pass the runnable obj.
-
+        Thread gun1 = new Thread(bullet1); // -----> Crate a thread object and pass the runnable obj.
 
         MyThreadRunnable2 bullet2 = new MyThreadRunnable2();
         Thread gun2 = new Thread(bullet2);
@@ -95,6 +94,7 @@ public class Thread_in_java {
 }
 
 /*
+ * 
  * OUTPUT be Like this:
  * With out Finishing the run Of t1 , T2 start run then Again T1 start run
  * 

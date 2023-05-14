@@ -8,7 +8,7 @@ import java.util.Scanner;
         Array to store the issued books
 */
 
-// In this way we cant modify the size of array so failed this idea
+//! In this way we can't modify the size of array ,so this idea failed 
 /* 
 //  Library
 class Library1{
@@ -103,8 +103,9 @@ class Library2 {
         System.out.println("Total Number of Books in Library : " + bookTracking);
     }
 
-    
-    /** 
+    /**
+     * ^ This Function for add the books if any one donet
+     * 
      * @param book
      */
     void addBook(String book) {
@@ -113,8 +114,7 @@ class Library2 {
         System.out.println(book + " added");
     }
 
-    
-    /** 
+    /**
      * @param book
      */
     void issueBook(String book) {
@@ -129,8 +129,7 @@ class Library2 {
         }
     }
 
-    
-    /** 
+    /**
      * @param book
      */
     void returnBook(String book) {

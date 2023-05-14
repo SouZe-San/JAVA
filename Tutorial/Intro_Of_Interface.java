@@ -29,16 +29,14 @@ class AvonCycle implements Bicycle, HornBicycle {
         System.out.println("Pee Pee Poo Poo");
     }
 
-    
-    /** 
+    /**
      * @param decrement
      */
     public void applyBrake(int decrement) {
         System.out.println("Applying Brake");
     }
 
-    
-    /** 
+    /**
      * @param increment
      */
     public void speedUp(int increment) {
@@ -69,7 +67,7 @@ interface MyCamera {
 
     // Default method ->>> this Are methods are are implementing In Interface..
     default void record4KVideo() {
-        greet(); // --->  By this way can Access
+        greet(); // ---> By this way can Access
         System.out.println("Recording in 4k...");
     }
 }
@@ -83,7 +81,7 @@ class smartPhone implements MyCamera {
         System.out.println("Taking snap");
     }
     // public void record4KVideo() {
-    //     System.out.println("Taking snap and recoding in 4k");
+    // System.out.println("Taking snap and recoding in 4k");
     // }
 
     public void name() {
@@ -127,31 +125,35 @@ public class Intro_Of_Interface {
     public static void main(String[] args) {
         AvonCycle cycleHarry = new AvonCycle();
         cycleHarry.applyBrake(1);
-        //* */ You can create properties in Interfaces
+        // * */ You can create properties in Interfaces
         // System.out.println(cycleHarry.a);
         // System.out.println(cycleHarry.x);
 
         // * You cannot modify the properties in Interfaces as they are final */
-        //* cycleHarry.a = 454; */
-        /*/ System.out.println(cycleHarry.a);
-
-        cycleHarry.blowHornK3g();
-        cycleHarry.blowHornmhn();
-
-        //*  default methods*/
+        // * cycleHarry.a = 454; */
+        /*
+         * / System.out.println(cycleHarry.a);
+         * 
+         * cycleHarry.blowHornK3g();
+         * cycleHarry.blowHornmhn();
+         * 
+         * //* default methods
+         */
         smartPhone sm = new smartPhone();
         sm.record4KVideo();
-        //* */ * sm.greet(); --> Throws an error!
- 
-        //* Inheritance in Interface */
+        // * */ * sm.greet(); --> Throws an error!
+
+        // * Inheritance in Interface */
         MySampleClass obj = new MySampleClass();
         obj.meth1();
         obj.meth2();
         obj.meth3();
 
         // *Polymorphism Or Dynamic Dispatch
-        MyCamera cam1 = new smartPhone(); // This is a smartphone but, use it as a camera || only can Use Methods of Camera as Its Reference is camera
-        // cam1.name(); --> Not allowed  ||| as this method is Belong to smartphone class not in camera..
+        MyCamera cam1 = new smartPhone(); // This is a smartphone but, use it as a camera || only can Use Methods of
+                                          // Camera as Its Reference is camera
+        // cam1.name(); --> Not allowed ||| as this method is Belong to smartphone class
+        // not in camera..
         cam1.record4KVideo();
     }
 }

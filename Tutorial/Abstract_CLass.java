@@ -54,7 +54,7 @@ abstract class Child3 extends Parent2 {
 public class Abstract_CLass {
     public static void main(String[] args) {
         // Parent2 p = new Parent2(); -- error
-        // Child2 c = new Child2(); -- Correct
+        Child2 child = new Child2(); // -- Correct
         // Child3 c3 = new Child3(); -- error
     }
 }

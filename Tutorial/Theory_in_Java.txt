@@ -16,7 +16,7 @@ java Harry.class -  Interpreted 
 
 java file --> (Compile by using  javac) --> class File -- (Using java Interpreter for OutPut)
 
-================================///////////////// PACKAGE \\\\\\\\\\\\\================================
+@================================///////////////// PACKAGE \\\\\\\\\\\\\================================
     
 package is like a folder where store class,User define Class /Logic are Store .....those are can Use In Other Java program by import those package
     
@@ -29,7 +29,7 @@ package is like a folder where store class,User define Class /Logic are Store ..
     import.java.string -   only import string from java long 
     java.util.Scanner scanner = new java.util.Scanner(System.in); ---->   use without importing but using Direct......
 
-============================/////////////////////  ACCESS MODIFIER \\\\\\\\\\\\\\\\\\\\=========================================
+@============================/////////////////////  ACCESS MODIFIER \\\\\\\\\\\\\\\\\\\\=========================================
 
 Access Modifier 	within class 	within package 	outside package by subclass only 	outside package(world)
 public 	                Y 	            Y 	                    Y 	                            Y
@@ -37,7 +37,7 @@ protected 	            Y 	            Y 	                    Y 	                
 Default 	            Y 	            Y 	                    N 	                            N
 private 	            Y 	            N 	                    N 	                            N
 
-====================================/////////////////////////// THREAD \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\===X========================
+@====================================/////////////////////////// THREAD \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\===X========================
 
 By Using this We can Run Multiple function in parallel-
 
@@ -67,7 +67,7 @@ By Using this We can Run Multiple function in parallel-
     MAX_PRIORITY: Maximum priority that a thread can have. Value is 10.
 
     ---------> Used:  setPriority(); 
-    =============================////////////// ERROR & EXCEPTION \\\\\\\\\\===========================
+ @   =============================////////////// ERROR & EXCEPTION \\\\\\\\\\===========================
 
 >>>There are three *types of errors* in java.
 1) Syntax errors -----------> haven't Declare the variable type or forget to put ';'
@@ -107,7 +107,7 @@ It is used to execute code containing instructions to release the system resourc
 Code in Finally Block Those execute in Any CAse... In CAse of USing This In a method which a return type and The FInal Block Is after the return statement Then Even return Value THe Finally Will execute.......... (See In program)
 
 
-=========================////////////////////// COLLECTION FRAMEWORK \\\\\\\\\\\\\\\\================================
+@=========================////////////////////// COLLECTION FRAMEWORK \\\\\\\\\\\\\\\\================================
 
 A collection represents a group of object Java collections provide classes and Interfaces for us to be able to write code interfaces for us to be able to write code quickly and efficiently 
 
@@ -147,7 +147,7 @@ this collection package contain more class whose flow this hashing technic
 4. HashTable
 
 
-============================/////////////////////// DATE AND TIME - Formatter \\\\\\\\\\\\\\\\\\====================
+@============================/////////////////////// DATE AND TIME - Formatter \\\\\\\\\\\\\\\\\\====================
 
 
 Patterns for formatting and parsing : Syntax used in OfPattern() method as String
@@ -195,7 +195,7 @@ Pattern letters for all the alphabets(capital as well as small) are defined as f
   }     	 reserved for future use     	                  	 
 
  
-//////////////////////////=================== CREATING JAVA dOCS PAGE =================\\\\\\\\\\\\\\\\\
+@\\\\\\\\\\\\\\\\\\\\\\/=================== CREATING JAVA dOCS PAGE =================\\\\\\\\\\\\\\\\\
 
 in Terminal write this code --------
 ---------------------------
@@ -207,7 +207,7 @@ javadoc -d <name>HTML <name>.java
 By DOing this the file will be ready............
 
 
-\\\\\\\\\\\\\\\\\\\\\\\\================ Annotation ===================\\\\\\\\\\\\\\\\\\\\\\\\\\
+!\\\\\\\\\\\\\\\\\\\\\\\\================ Annotation ===================\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 @Deprecated :
     This annotation is used to mark a deprecated method.
