@@ -1,7 +1,7 @@
 
 class NegativeRadiusException extends Exception {
-    
-    /** 
+
+    /**
      * @return String
      */
     @Override
@@ -9,8 +9,7 @@ class NegativeRadiusException extends Exception {
         return "Radius cannot be negative!";
     }
 
-    
-    /** 
+    /**
      * @return String
      */
     @Override
@@ -19,10 +18,11 @@ class NegativeRadiusException extends Exception {
     }
 }
 
-// If U want to  See Work of Throw The go To Custom_Exception Program To See
+// If U want to See Work of Throw The go To Custom_Exception Program To See
 
 public class Throw__Throws {
-    public static double area(int r) throws NegativeRadiusException {  // Throw ues For Declare That, by Using This Method may be occur this Exception
+    public static double area(int r) throws NegativeRadiusException { // Throw ues For Declare That, by Using This
+                                                                      // Method may be occur this Exception
         if (r < 0) {
             throw new NegativeRadiusException();
         }
@@ -31,7 +31,7 @@ public class Throw__Throws {
     }
 
     public static int divide(int a, int b) throws ArithmeticException {
-        // Made By Harry
+
         int result = a / b;
         return result;
     }
