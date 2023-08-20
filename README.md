@@ -1,19 +1,19 @@
-# JAVA
+# **JAVA**
 
 This repo contains some basic java knowledge, with code and explanation.
 this was created at the time of my Java practice and learning.
 
-# ** This All My Notes on Java **
+## This All My Notes on Java
 
     Arrange in my way of understanding if find help full then use it.
 
-# File content --
+## File content --
 
-- **Tutorial** ->their are Notes on basic concept on java with Code material.
+- _Tutorial_ ->their are Notes on basic concept on java with Code material.
 
-- _**PROBLEMs**_ ->In normally there Some problem solution of some question using Java.
+- _PROBLEMs_ ->In normally there Some problem solution of some question using Java.
 
-# **_Tutorial Path - _**
+# **Tutorial Path - **
 
     Assuming you have knowledge Basic coding knowledge
 
