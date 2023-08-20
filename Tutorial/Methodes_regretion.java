@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
 public class Methodes_regretion {
-
-    
-    /** 
+    /**
      * @param a
      * @return int
      */
@@ -16,8 +14,7 @@ public class Methodes_regretion {
         }
     }
 
-    
-    /** 
+    /**
      * @param args
      */
     public static void main(String[] args) {

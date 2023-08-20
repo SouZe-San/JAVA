@@ -14,24 +14,24 @@
  */
 
 class employee {
-    // IF we privet the variables then we can't acess or set input from
-    // anywhare...but can set the variable by methose crete in class
+    // IF we privet the variables then we can't access or set input from
+    // any whare...but can set the variable by methods crete in class
     private String name;
     private int id;
 
     // If we privet the variables then we have to store value by manually means have
-    // to do it from first by constactor ...
-    // -----> this act like if we dont set anything It ewill act like defulat;;;;
+    // to do it from first by constructor ...
+    // -----> this act like if we don't set anything It weill act like default;;;;
     employee() {
-        System.out.println("this is from Constractor made by defult without any  parameter...");
+        System.out.println("this is from Constructor made by default without any  parameter...");
         id = 0;
         name = "Your-Name";
     }
 
-    // --------------> This Constractor OVErload ... here we passes Agruments as we
-    // want to set ..... Acesss can be Public or defult
+    // --------------> This Constructor OVErload ... here we passes Arguments as we
+    // want to set ..... Accesss can be Public or default
     public employee(String n, int a) {
-        System.out.println("this is from Constractor made with some  parameter...");
+        System.out.println("this is from Constructor made with some  parameter...");
         name = n;
         id = a;
     }
@@ -39,7 +39,7 @@ class employee {
     /**
      * @return String
      */
-    // ---------------> Othrerwise can set by metodes
+    // ---------------> Otherwise can set by methods
     public String getName() {
         return name;
     }
@@ -87,14 +87,14 @@ public class Constractor {
     public static void main(String[] args) {
         System.out.println("hello fuckers");
 
-        // This here name and id set by Constractor and works like defulat
+        // This here name and id set by Constructor and works like default
         employee noNaeme = new employee();
         noNaeme.details();
-        // Here Passses Name and id to Constrator for set name and id
+        // Here Passes Name and id to Constructor for set name and id
         employee souze = new employee("soumyajit", 8);
         souze.details();
         Employee1 biswa = new Employee1("biswajit", 5000);
-        // Usein Methodes to set the value;;
+        // Use in Methods to set the value;;
         biswa.setId(4);
         System.out.println("the id is :" + biswa.getId());
     }

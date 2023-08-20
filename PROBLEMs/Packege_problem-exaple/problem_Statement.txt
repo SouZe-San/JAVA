@@ -1,0 +1,18 @@
+01. Furniture and Fittings Company (FFC) manufactures chairs and bookshelves. The customers provide their 
+specifications for the desired furniture item to the company. The furniture items in the company have similar 
+characteristics, such as price, width, and height. However, for some furniture items, specific details need to 
+be provided by the customers. Recently, the business of the company has increased significantly. To handle 
+the increased customer’s orders, FFC has decided to computerize the order processing system. For this, you 
+need to develop a Java program that accepts the furniture attributes from the customers, as per the specified 
+furniture items, such as bookshelves and chairs. You need to develop the program to accept and display the 
+various choices of customers.
+Ans >> 
+
+
+02.
+You have to create a package named name.shape
+ This package should have individual classes for Rectangle, Square, Circle, Cylinder, Sphere
+ Include methods like volume, surface area and getters/setters for dimensions
+
+ BY CREATE PACKAGE can use other packages like <urName>.shape.Rectangle, <urName>.shape.sphere, <urName>.shape.Cylinder, <urName>.shape.*.
+ so for Sphere ,cylinder don't have to Recreate those class ...... Instead Can Use My Own Crate class >>>

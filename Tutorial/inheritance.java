@@ -3,6 +3,8 @@
  * WHAT IS INHERITANCE ? -> As word meaning....
  * father called sub class and child called super class 
  *  By this we can copy or use the parent class's method or constructor..
+ * In java we can use this by extends keyword
+ * in java multiple inheritance is not possible
  */
 
 /*
@@ -32,6 +34,10 @@ class Parent {
     }
 }
 
+/*
+ * !One Level Inheritance
+ * Child
+ */
 class child extends Parent {
     public int y;
 
@@ -60,15 +66,26 @@ class child extends Parent {
 
 }
 
+/*
+ * Animal
+ */
 class animal12 {
     animal12() {
         System.out.println("1. Have 4 legs,2 eyes ,One noes ,2 ears");
     }
 }
 
+// One Inheritance
 class dog extends animal12 {
     void sound() {
         System.out.println("Bark! Wow WOw !!");
+    }
+}
+
+// Multilevel Inheritance
+class babyDog extends dog {
+    void weep() {
+        System.out.println("Weep! Weep! Weep!");
     }
 }
 

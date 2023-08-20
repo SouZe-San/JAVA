@@ -16,18 +16,7 @@ java Harry.class -  Interpreted 
 
 java file --> (Compile by using  javac) --> class File -- (Using java Interpreter for OutPut)
 
-@================================///////////////// PACKAGE \\\\\\\\\\\\\================================
-    
-package is like a folder where store class,User define Class /Logic are Store .....those are can Use In Other Java program by import those package
-    
-    CREATE Package-------------
-     javac -d . *.java  {CREATE All java File}
-     javac -d . <name>.java {only CREATE That file}
 
-.>>>>>>>>>>> Import a pre/User-define package
-    import.java.util.* - import All Method Under the Name of util
-    import.java.string -   only import string from java long 
-    java.util.Scanner scanner = new java.util.Scanner(System.in); ---->   use without importing but using Direct......
 
 @============================/////////////////////  ACCESS MODIFIER \\\\\\\\\\\\\\\\\\\\=========================================
 
@@ -41,7 +30,7 @@ private 	            Y 	            N 	                    N 	                  
 
 By Using this We can Run Multiple function in parallel-
 
-------------- LIFE CYCLE OF THREAD ]]]]]]]]]]]]]]]]]]]]]]]
+!<<<<<<<<<------------- LIFE CYCLE OF THREAD ------->>>>>>>>
 
     New - Instance of thread created which is not yet started by involving start(). In this state, the thread is also known as the born thread. start()
     |
@@ -57,7 +46,7 @@ By Using this We can Run Multiple function in parallel-
     v
     Terminated - run() method has exited. Complete the execution
 
-------------- priority set of thread ]]]]]]]]]]]]]]]]]]]]]]]]
+!<<<<<<<<<------------- priority set of thread --------->>>>>>>>>>>
 
     For In case of making App or Website We have to Set priority ,,Or should tell--> Fixed that which function will run more & which will less In parallel... which Fun  will run more time which Normal Which Less...
 
@@ -81,7 +70,7 @@ By Using this We can Run Multiple function in parallel-
 4) Illegal Argument Exception
 5) Number Format Exception
 
---------------- Try - Catch Block ---------]]]]]]]]]]]]]]]]]]]]
+!<<<<<<<--------------- Try - Catch Block -------------------->>>>>>>
 try {
             *CODE* that can Produce an Error that Failed the execution {int c = a / b;  System.out.print("The result is " + c);} (if b=0 given then mathematical error came)
             As we known that this Can give an runtime not always but some time that use this ... Try and if it given an error then Catch it and we write We will do for that error 
@@ -91,14 +80,14 @@ catch(Exception e) {
             {System.out.print("We failed to divide. Reason: "); System.out.print(e);}
         }
 
-------------- Throw & Throws ]]]]]]]]]
+!<<<<<----- ---- Throw & Throws ----->>>>>>>>
 
 For Create custom Exception Class, Have to extends from "Exception" 
 Throw : == Use for Throw custom Create ExceptionClass or Pre-define ExceptionClass/ Throw  Basically Syntax For Using Exception Class ...
 Throws: == It Use for Tell User To Use Carefully because it  may be throw an Exception.... It Used in time of Creating Method.. .
             Throws java throws keyword is used to declare an exception.
 
-------------- Finally -------]]]]]]]]]]]]]]]
+!<<<<<------------- Finally ------->>>>>>>>
 
 Finally block contains the code which is always executed whether the exception is handled or not.
 It is used to exception is handled or not.
@@ -106,6 +95,18 @@ It is used to execute code containing instructions to release the system resourc
 
 Code in Finally Block Those execute in Any CAse... In CAse of USing This In a method which a return type and The FInal Block Is after the return statement Then Even return Value THe Finally Will execute.......... (See In program)
 
+@================================///////////////// PACKAGE \\\\\\\\\\\\\================================
+    
+package is like a folder where store class,User define Class /Logic are Store .....those are can Use In Other Java program by import those package
+    
+    CREATE Package-------------
+     javac -d . *.java  {CREATE All java File}
+     javac -d . <name>.java {only CREATE That file}
+
+.>>>>>>>>>>> Import a pre/User-define package
+    import.java.util.* - import All Method Under the Name of util
+    import.java.string -   only import string from java long 
+    java.util.Scanner scanner = new java.util.Scanner(System.in); ---->   use without importing but using Direct......
 
 @=========================////////////////////// COLLECTION FRAMEWORK \\\\\\\\\\\\\\\\================================
 
@@ -121,7 +122,7 @@ HashMap -> For strong key - value pairs
 Linkdlist 
 this are present by default we can just use their method freely
 
--------------------- Hashing ------]]]]]]]]]]]]]]
+<<<<<<<-------------------- Hashing ------------------>>>>>
 
 its a technic where elements insert not serially but index = element % size;
 here don't present a single element multiple time..
