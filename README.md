@@ -15,9 +15,9 @@ this was created at the time of my Java practice and learning.
 
 ### 0. Basic
 
-    - scanner class uses for input
-    - System.out.print() statement uses for output
-    - variable declaration {int , float , double , char , String , boolean}
+- scanner class uses for input
+- System.out.print() statement uses for output
+- variable declaration {int, float, double, char, String, boolean}
 
 ### 1. Array
 
