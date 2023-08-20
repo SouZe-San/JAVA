@@ -21,7 +21,7 @@ this was created at the time of my Java practice and learning.
 
 - scanner class uses for input
 - System.out.print() statement uses for output
-- variable declaration {int , float , double , char , String , boolean}
+- variable declaration {int, float, double, char, String, boolean}
 
 ### 1. Array
 
