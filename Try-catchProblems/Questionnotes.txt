@@ -1,0 +1,19 @@
+1. Demonstrate Exception Handling,,, if Size of an Array axseed its pre-define size the array..
+2. use divide by 0 to demonstrate Exception handel..
+3. write a block of code that generate multiple Exception.. Use Multiple catch block to handel exception..... Change the order of the catch block and observe the Change,,,..
+4. write a code .. that use try-catch-finally block
+
+@ try to solve by your self
+5. write a code their a variable declare as Final and try to change the value and handel the exception..
+6. write a  programme their handel a static method the non-static data.
+7, demonstrate the nested exception handling
+8. can we define same Exception class but use different object in multiple catch block
+
+9. Demonstrate the Compile time polymorphism(method overloading)
+
+
+
+! Protected Code : 
+    What write inside the try Block That called As Protected Code>>>
+
+    super exception later and sub exception earlier

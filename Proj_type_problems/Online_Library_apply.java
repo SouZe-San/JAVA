@@ -32,7 +32,7 @@ void addBook(String book){
 } 
 */
 
-// Copy and Idea As In Beginner Level
+// Idea As In Beginner Level
 /*
  class Library{
     String[] books;
